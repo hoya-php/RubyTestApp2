@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA38F4B5242A49450011E16E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA38F4B4242A49450011E16E /* AppDelegate.swift */; };
+		DA38F4B7242A49450011E16E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA38F4B6242A49450011E16E /* ViewController.swift */; };
+		DA38F4BA242A49450011E16E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA38F4B8242A49450011E16E /* Main.storyboard */; };
+		DA38F4BC242A49490011E16E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA38F4BB242A49490011E16E /* Assets.xcassets */; };
+		DA38F4BF242A49490011E16E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA38F4BD242A49490011E16E /* LaunchScreen.storyboard */; };
+		DA38F4CA242A49490011E16E /* RubyTestApp2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA38F4C9242A49490011E16E /* RubyTestApp2Tests.swift */; };
+		DA38F4D5242A49490011E16E /* RubyTestApp2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA38F4D4242A49490011E16E /* RubyTestApp2UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DA38F4C6242A49490011E16E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA38F4A9242A49450011E16E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA38F4B0242A49450011E16E;
+			remoteInfo = RubyTestApp2;
+		};
+		DA38F4D1242A49490011E16E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA38F4A9242A49450011E16E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA38F4B0242A49450011E16E;
+			remoteInfo = RubyTestApp2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DA38F4B1242A49450011E16E /* RubyTestApp2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RubyTestApp2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA38F4B4242A49450011E16E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DA38F4B6242A49450011E16E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DA38F4B9242A49450011E16E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DA38F4BB242A49490011E16E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DA38F4BE242A49490011E16E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DA38F4C0242A49490011E16E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA38F4C5242A49490011E16E /* RubyTestApp2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RubyTestApp2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA38F4C9242A49490011E16E /* RubyTestApp2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RubyTestApp2Tests.swift; sourceTree = "<group>"; };
+		DA38F4CB242A49490011E16E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA38F4D0242A49490011E16E /* RubyTestApp2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RubyTestApp2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA38F4D4242A49490011E16E /* RubyTestApp2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RubyTestApp2UITests.swift; sourceTree = "<group>"; };
+		DA38F4D6242A49490011E16E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA38F4AE242A49450011E16E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA38F4C2242A49490011E16E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA38F4CD242A49490011E16E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DA38F4A8242A49450011E16E = {
+			isa = PBXGroup;
+			children = (
+				DA38F4B3242A49450011E16E /* RubyTestApp2 */,
+				DA38F4C8242A49490011E16E /* RubyTestApp2Tests */,
+				DA38F4D3242A49490011E16E /* RubyTestApp2UITests */,
+				DA38F4B2242A49450011E16E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DA38F4B2242A49450011E16E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA38F4B1242A49450011E16E /* RubyTestApp2.app */,
+				DA38F4C5242A49490011E16E /* RubyTestApp2Tests.xctest */,
+				DA38F4D0242A49490011E16E /* RubyTestApp2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA38F4B3242A49450011E16E /* RubyTestApp2 */ = {
+			isa = PBXGroup;
+			children = (
+				DA38F4B4242A49450011E16E /* AppDelegate.swift */,
+				DA38F4B6242A49450011E16E /* ViewController.swift */,
+				DA38F4B8242A49450011E16E /* Main.storyboard */,
+				DA38F4BB242A49490011E16E /* Assets.xcassets */,
+				DA38F4BD242A49490011E16E /* LaunchScreen.storyboard */,
+				DA38F4C0242A49490011E16E /* Info.plist */,
+			);
+			path = RubyTestApp2;
+			sourceTree = "<group>";
+		};
+		DA38F4C8242A49490011E16E /* RubyTestApp2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				DA38F4C9242A49490011E16E /* RubyTestApp2Tests.swift */,
+				DA38F4CB242A49490011E16E /* Info.plist */,
+			);
+			path = RubyTestApp2Tests;
+			sourceTree = "<group>";
+		};
+		DA38F4D3242A49490011E16E /* RubyTestApp2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				DA38F4D4242A49490011E16E /* RubyTestApp2UITests.swift */,
+				DA38F4D6242A49490011E16E /* Info.plist */,
+			);
+			path = RubyTestApp2UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA38F4B0242A49450011E16E /* RubyTestApp2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA38F4D9242A49490011E16E /* Build configuration list for PBXNativeTarget "RubyTestApp2" */;
+			buildPhases = (
+				DA38F4AD242A49450011E16E /* Sources */,
+				DA38F4AE242A49450011E16E /* Frameworks */,
+				DA38F4AF242A49450011E16E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RubyTestApp2;
+			productName = RubyTestApp2;
+			productReference = DA38F4B1242A49450011E16E /* RubyTestApp2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DA38F4C4242A49490011E16E /* RubyTestApp2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA38F4DC242A49490011E16E /* Build configuration list for PBXNativeTarget "RubyTestApp2Tests" */;
+			buildPhases = (
+				DA38F4C1242A49490011E16E /* Sources */,
+				DA38F4C2242A49490011E16E /* Frameworks */,
+				DA38F4C3242A49490011E16E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA38F4C7242A49490011E16E /* PBXTargetDependency */,
+			);
+			name = RubyTestApp2Tests;
+			productName = RubyTestApp2Tests;
+			productReference = DA38F4C5242A49490011E16E /* RubyTestApp2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DA38F4CF242A49490011E16E /* RubyTestApp2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA38F4DF242A49490011E16E /* Build configuration list for PBXNativeTarget "RubyTestApp2UITests" */;
+			buildPhases = (
+				DA38F4CC242A49490011E16E /* Sources */,
+				DA38F4CD242A49490011E16E /* Frameworks */,
+				DA38F4CE242A49490011E16E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA38F4D2242A49490011E16E /* PBXTargetDependency */,
+			);
+			name = RubyTestApp2UITests;
+			productName = RubyTestApp2UITests;
+			productReference = DA38F4D0242A49490011E16E /* RubyTestApp2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA38F4A9242A49450011E16E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = hoya;
+				TargetAttributes = {
+					DA38F4B0242A49450011E16E = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					DA38F4C4242A49490011E16E = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = DA38F4B0242A49450011E16E;
+					};
+					DA38F4CF242A49490011E16E = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = DA38F4B0242A49450011E16E;
+					};
+				};
+			};
+			buildConfigurationList = DA38F4AC242A49450011E16E /* Build configuration list for PBXProject "RubyTestApp2" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DA38F4A8242A49450011E16E;
+			productRefGroup = DA38F4B2242A49450011E16E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA38F4B0242A49450011E16E /* RubyTestApp2 */,
+				DA38F4C4242A49490011E16E /* RubyTestApp2Tests */,
+				DA38F4CF242A49490011E16E /* RubyTestApp2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA38F4AF242A49450011E16E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA38F4BF242A49490011E16E /* LaunchScreen.storyboard in Resources */,
+				DA38F4BC242A49490011E16E /* Assets.xcassets in Resources */,
+				DA38F4BA242A49450011E16E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA38F4C3242A49490011E16E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA38F4CE242A49490011E16E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA38F4AD242A49450011E16E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA38F4B7242A49450011E16E /* ViewController.swift in Sources */,
+				DA38F4B5242A49450011E16E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA38F4C1242A49490011E16E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA38F4CA242A49490011E16E /* RubyTestApp2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA38F4CC242A49490011E16E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA38F4D5242A49490011E16E /* RubyTestApp2UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DA38F4C7242A49490011E16E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA38F4B0242A49450011E16E /* RubyTestApp2 */;
+			targetProxy = DA38F4C6242A49490011E16E /* PBXContainerItemProxy */;
+		};
+		DA38F4D2242A49490011E16E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA38F4B0242A49450011E16E /* RubyTestApp2 */;
+			targetProxy = DA38F4D1242A49490011E16E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DA38F4B8242A49450011E16E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA38F4B9242A49450011E16E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DA38F4BD242A49490011E16E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA38F4BE242A49490011E16E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DA38F4D7242A49490011E16E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DA38F4D8242A49490011E16E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DA38F4DA242A49490011E16E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RubyTestApp2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hoya.sample.RubyTestApp2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DA38F4DB242A49490011E16E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RubyTestApp2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hoya.sample.RubyTestApp2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DA38F4DD242A49490011E16E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RubyTestApp2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hoya.sample.RubyTestApp2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RubyTestApp2.app/RubyTestApp2";
+			};
+			name = Debug;
+		};
+		DA38F4DE242A49490011E16E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RubyTestApp2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hoya.sample.RubyTestApp2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RubyTestApp2.app/RubyTestApp2";
+			};
+			name = Release;
+		};
+		DA38F4E0242A49490011E16E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RubyTestApp2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hoya.sample.RubyTestApp2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RubyTestApp2;
+			};
+			name = Debug;
+		};
+		DA38F4E1242A49490011E16E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RubyTestApp2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hoya.sample.RubyTestApp2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RubyTestApp2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA38F4AC242A49450011E16E /* Build configuration list for PBXProject "RubyTestApp2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA38F4D7242A49490011E16E /* Debug */,
+				DA38F4D8242A49490011E16E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA38F4D9242A49490011E16E /* Build configuration list for PBXNativeTarget "RubyTestApp2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA38F4DA242A49490011E16E /* Debug */,
+				DA38F4DB242A49490011E16E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA38F4DC242A49490011E16E /* Build configuration list for PBXNativeTarget "RubyTestApp2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA38F4DD242A49490011E16E /* Debug */,
+				DA38F4DE242A49490011E16E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA38F4DF242A49490011E16E /* Build configuration list for PBXNativeTarget "RubyTestApp2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA38F4E0242A49490011E16E /* Debug */,
+				DA38F4E1242A49490011E16E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DA38F4A9242A49450011E16E /* Project object */;
+}
