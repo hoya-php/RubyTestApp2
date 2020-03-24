@@ -21,7 +21,7 @@ class APIHttpRequest {
     init(sentence: String, completion: @escaping (ResponseData) -> Void) {
         // リクエスト情報
         let requestUrl = "https://labs.goo.ne.jp/api/hiragana"
-        let appKey = TestAppKeys()
+        let appKey = RubyTestApp2Keys()
         let parameters:[String: Any] = [
             "app_id": appKey.apiTokenRubyApp,
             "sentence": sentence,
@@ -34,7 +34,6 @@ class APIHttpRequest {
             guard let jsonData = response.data else {
                 return
             }
-            
             let responseData = try! JSONDecoder().decode(ResponseData.self, from: jsonData)
             completion(responseData)
         }
