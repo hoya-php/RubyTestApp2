@@ -18,7 +18,7 @@ struct ResponseData: Codable {
 }
 class APIHttpRequest {
     
-    init(sentence: String, completion: @escaping (ResponseData) -> Void) {
+    func APIHttpRequest(sentence: String, completion: @escaping (ResponseData) -> Void) {
         // リクエスト情報
         let requestUrl = "https://labs.goo.ne.jp/api/hiragana"
         let appKey = RubyTestApp2Keys()
