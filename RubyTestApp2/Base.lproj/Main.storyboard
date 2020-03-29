@@ -35,7 +35,7 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="16q-AH-QPI">
                                 <rect key="frame" x="85" y="89" width="244" height="200"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DGa-Mb-yJh">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DGa-Mb-yJh" userLabel="Output Ruby Character">
                                         <rect key="frame" x="10" y="60" width="224" height="20"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="20" id="LQR-kb-3Q2"/>
@@ -153,7 +153,7 @@
                         <outlet property="inputBox" destination="fDw-qn-LlX" id="lfm-bf-l4s"/>
                         <outlet property="nextCharacter" destination="ahE-Pk-wvH" id="gn1-Bg-frs"/>
                         <outlet property="outputCharacter" destination="jTL-ek-9T4" id="xKe-p3-vcu"/>
-                        <outlet property="outputRuby" destination="DGa-Mb-yJh" id="Fwr-nO-TVt"/>
+                        <outlet property="outputRubyCharacter" destination="DGa-Mb-yJh" id="UUL-1N-T2E"/>
                         <outlet property="outputView" destination="16q-AH-QPI" id="adV-oC-WFt"/>
                         <outlet property="prevCharacter" destination="6zE-sZ-mxJ" id="Qd7-pj-XWd"/>
                     </connections>
