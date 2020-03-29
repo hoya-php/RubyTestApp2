@@ -1,6 +1,0 @@
-framework module Pods_RubyTestApp2_RubyTestApp2UITests {
-  umbrella header "Pods-RubyTestApp2-RubyTestApp2UITests-umbrella.h"
-
-  export *
-  module * { export * }
-}

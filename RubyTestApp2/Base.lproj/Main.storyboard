@@ -147,9 +147,9 @@
                         </connections>
                     </view>
                     <connections>
+                        <outlet property="CellImage" destination="Suh-Bh-9TZ" id="rI8-Fi-fqB"/>
+                        <outlet property="HumImage" destination="vWl-8Y-jdM" id="0ll-mm-Pfi"/>
                         <outlet property="SendButton" destination="Byw-od-qnz" id="jAU-Af-SE8"/>
-                        <outlet property="cellImage" destination="Suh-Bh-9TZ" id="LCz-F7-awa"/>
-                        <outlet property="humImage" destination="vWl-8Y-jdM" id="hAs-XH-8Pf"/>
                         <outlet property="inputBox" destination="fDw-qn-LlX" id="lfm-bf-l4s"/>
                         <outlet property="nextCharacter" destination="ahE-Pk-wvH" id="gn1-Bg-frs"/>
                         <outlet property="outputCharacter" destination="jTL-ek-9T4" id="xKe-p3-vcu"/>
