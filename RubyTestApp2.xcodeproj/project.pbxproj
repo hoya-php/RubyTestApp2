@@ -10,10 +10,8 @@
 		0F3ECED92772F0ABA5C4D804 /* Pods_RubyTestApp2_RubyTestApp2UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF5C5B1C4F931A8A0C20C5EF /* Pods_RubyTestApp2_RubyTestApp2UITests.framework */; };
 		29A308D39CB80C2AD40B7820 /* Pods_RubyTestApp2Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AA6C885190787EFFBA0D97C /* Pods_RubyTestApp2Tests.framework */; };
 		7108A13B243B4BE0003A73CF /* APIKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7108A13A243B4BE0003A73CF /* APIKey.swift */; };
+		7153781D243B7C8E00E1BFFC /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7153781C243B7C8E00E1BFFC /* Task.swift */; };
 		DA16865F24310AD10081D891 /* APIHttpRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA16865E24310AD10081D891 /* APIHttpRequest.swift */; };
-		DA1686622431576F0081D891 /* AdaptiveCardSwiftSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1686612431576F0081D891 /* AdaptiveCardSwiftSampleTests.swift */; };
-		DA168664243157E90081D891 /* MockURLProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA168663243157E90081D891 /* MockURLProtocol.swift */; };
-		DA168666243158230081D891 /* URLSessionConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA168665243158230081D891 /* URLSessionConfiguration.swift */; };
 		DA38F4B5242A49450011E16E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA38F4B4242A49450011E16E /* AppDelegate.swift */; };
 		DA38F4B7242A49450011E16E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA38F4B6242A49450011E16E /* ViewController.swift */; };
 		DA38F4BA242A49450011E16E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA38F4B8242A49450011E16E /* Main.storyboard */; };
@@ -49,14 +47,12 @@
 		129746D0991F3BB9AA96A22E /* Pods-RubyTestApp2Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RubyTestApp2Tests.release.xcconfig"; path = "Target Support Files/Pods-RubyTestApp2Tests/Pods-RubyTestApp2Tests.release.xcconfig"; sourceTree = "<group>"; };
 		2A1AD464CE27D6A2703E0F29 /* Pods-RubyTestApp2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RubyTestApp2.debug.xcconfig"; path = "Target Support Files/Pods-RubyTestApp2/Pods-RubyTestApp2.debug.xcconfig"; sourceTree = "<group>"; };
 		7108A13A243B4BE0003A73CF /* APIKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKey.swift; sourceTree = "<group>"; };
+		7153781C243B7C8E00E1BFFC /* Task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 		AD9F7C33AFA310BC0C01B5FE /* Pods-RubyTestApp2-RubyTestApp2UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RubyTestApp2-RubyTestApp2UITests.release.xcconfig"; path = "Target Support Files/Pods-RubyTestApp2-RubyTestApp2UITests/Pods-RubyTestApp2-RubyTestApp2UITests.release.xcconfig"; sourceTree = "<group>"; };
 		BA4860BB6AFDBE9849F5840D /* Pods-RubyTestApp2Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RubyTestApp2Tests.debug.xcconfig"; path = "Target Support Files/Pods-RubyTestApp2Tests/Pods-RubyTestApp2Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C3F3CCE85C89413E27FAEBE3 /* Pods-RubyTestApp2-RubyTestApp2UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RubyTestApp2-RubyTestApp2UITests.debug.xcconfig"; path = "Target Support Files/Pods-RubyTestApp2-RubyTestApp2UITests/Pods-RubyTestApp2-RubyTestApp2UITests.debug.xcconfig"; sourceTree = "<group>"; };
 		CF5C5B1C4F931A8A0C20C5EF /* Pods_RubyTestApp2_RubyTestApp2UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RubyTestApp2_RubyTestApp2UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA16865E24310AD10081D891 /* APIHttpRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIHttpRequest.swift; sourceTree = "<group>"; };
-		DA1686612431576F0081D891 /* AdaptiveCardSwiftSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdaptiveCardSwiftSampleTests.swift; sourceTree = "<group>"; };
-		DA168663243157E90081D891 /* MockURLProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockURLProtocol.swift; sourceTree = "<group>"; };
-		DA168665243158230081D891 /* URLSessionConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionConfiguration.swift; sourceTree = "<group>"; };
 		DA38F4B1242A49450011E16E /* RubyTestApp2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RubyTestApp2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA38F4B4242A49450011E16E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DA38F4B6242A49450011E16E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -105,6 +101,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7153781B243B7C8E00E1BFFC /* ListModel */ = {
+			isa = PBXGroup;
+			children = (
+				7153781C243B7C8E00E1BFFC /* Task.swift */,
+			);
+			path = ListModel;
+			sourceTree = "<group>";
+		};
 		B889595802C3BE18C5BAA669 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -130,9 +134,6 @@
 		DA1686602431574F0081D891 /* NetworkingTests */ = {
 			isa = PBXGroup;
 			children = (
-				DA1686612431576F0081D891 /* AdaptiveCardSwiftSampleTests.swift */,
-				DA168663243157E90081D891 /* MockURLProtocol.swift */,
-				DA168665243158230081D891 /* URLSessionConfiguration.swift */,
 			);
 			path = NetworkingTests;
 			sourceTree = "<group>";
@@ -162,6 +163,7 @@
 		DA38F4B3242A49450011E16E /* RubyTestApp2 */ = {
 			isa = PBXGroup;
 			children = (
+				7153781B243B7C8E00E1BFFC /* ListModel */,
 				DA16865D24310AD10081D891 /* Networking */,
 				DA38F4B6242A49450011E16E /* ViewController.swift */,
 				DA38F4B4242A49450011E16E /* AppDelegate.swift */,
@@ -445,6 +447,7 @@
 			files = (
 				DA38F4B7242A49450011E16E /* ViewController.swift in Sources */,
 				DA16865F24310AD10081D891 /* APIHttpRequest.swift in Sources */,
+				7153781D243B7C8E00E1BFFC /* Task.swift in Sources */,
 				7108A13B243B4BE0003A73CF /* APIKey.swift in Sources */,
 				DA38F4B5242A49450011E16E /* AppDelegate.swift in Sources */,
 			);
@@ -454,10 +457,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA168664243157E90081D891 /* MockURLProtocol.swift in Sources */,
 				DA38F4CA242A49490011E16E /* RubyTestApp2Tests.swift in Sources */,
-				DA1686622431576F0081D891 /* AdaptiveCardSwiftSampleTests.swift in Sources */,
-				DA168666243158230081D891 /* URLSessionConfiguration.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
