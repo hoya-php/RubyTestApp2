@@ -8,37 +8,36 @@
 //
 import Foundation
 import Alamofire
-import Keys
-
-/// レスポンスデータ
-struct ResponseData: Codable {
-    var request_id = ""
-    var output_type = ""
-    var converted = ""
-}
 
 class APIHttpRequest {
     
-    func APIHttpRequest(sentence: String, completion: @escaping (ResponseData) -> Void) {
-        // リクエスト情報
-        let requestUrl = "https://labs.goo.ne.jp/api/hiragana"
-        let appKey = RubyTestApp2Keys()
-        let parameters:[String: Any] = [
-            "app_id": appKey.apiTokenRubyApp,
-            "sentence": sentence,
-            "output_type": "hiragana"
-        ]
-        // リクエスト送信
-        AF.request(requestUrl, method:.post, parameters: parameters).responseJSON {
-            
-            response in
-            guard let jsonData = response.data else {
-                return
-            }
-            let responseData = try! JSONDecoder().decode(ResponseData.self, from: jsonData)
-            completion(responseData)
-        }
-        
+    /// レスポンスデータ
+    struct ResponseData: Codable {
+        var request_id = ""
+        var output_type = ""
+        var converted = ""
     }
     
+    func requests(sentence: String, completion: @escaping (_ rubyCharacter: String) -> Void) {
+        // リクエスト情報
+        let requestsData = RequestsData(sentence)
+        
+        // リクエスト送信
+        AF.request(requestsData.requestUrl, method:.post, parameters: requestsData.parameters).responseJSON {
+            
+            response in
+            
+            do {
+                // JSON取得 response.data unwrap
+                let responseData = try JSONDecoder().decode(ResponseData.self, from: response.data!)
+                
+                // 取り出して変換
+                let rubyCharacter = responseData.converted
+                completion(rubyCharacter)
+                
+            } catch {
+                //error?
+            }
+        }
+    }
 }

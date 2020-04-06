@@ -67,24 +67,19 @@ class ViewController: UIViewController , UITextFieldDelegate {
     }
     
     //ルビ変換ボタン押下時、ルビを画面に表示するメソッド
-    ///
-    /// - Parameter sender: UIButton
 
     @IBAction func convertRuby(_ sender: UIButton) {
-        guard let inputText = inputBox.text else {
-            return
-        }
+    
+        guard let textData: String = inputBox.text else { return }
         
-        if inputText != "" {
-                APIHttpRequest().APIHttpRequest(sentence: inputText, completion: {(responseData: ResponseData) -> Void in
+        APIHttpRequest().requests(sentence: textData, completion: { [weak self] (rubyCharacter: String) -> Void in
                 
-                self.prevCharacter.text = ""
-                self.nextCharacter.text = "って、よむんだよ"
+            self?.prevCharacter.text = ""
+            self?.nextCharacter.text = "って、よむんだよ"
                 
-                self.outputRubyCharacter.text = inputText
-                self.outputCharacter.text = responseData.converted
-                
-            })
-        }
+            self?.outputRubyCharacter.text = textData
+            self?.outputCharacter.text = rubyCharacter
+        
+        })
     }
 }
