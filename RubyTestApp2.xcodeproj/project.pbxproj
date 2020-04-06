@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F3ECED92772F0ABA5C4D804 /* Pods_RubyTestApp2_RubyTestApp2UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF5C5B1C4F931A8A0C20C5EF /* Pods_RubyTestApp2_RubyTestApp2UITests.framework */; };
+		29A308D39CB80C2AD40B7820 /* Pods_RubyTestApp2Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AA6C885190787EFFBA0D97C /* Pods_RubyTestApp2Tests.framework */; };
+		7108A13B243B4BE0003A73CF /* APIKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7108A13A243B4BE0003A73CF /* APIKey.swift */; };
 		DA16865F24310AD10081D891 /* APIHttpRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA16865E24310AD10081D891 /* APIHttpRequest.swift */; };
 		DA1686622431576F0081D891 /* AdaptiveCardSwiftSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1686612431576F0081D891 /* AdaptiveCardSwiftSampleTests.swift */; };
 		DA168664243157E90081D891 /* MockURLProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA168663243157E90081D891 /* MockURLProtocol.swift */; };
@@ -42,11 +45,14 @@
 
 /* Begin PBXFileReference section */
 		093EF44C4A2D7033A528BC57 /* Pods-RubyTestApp2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RubyTestApp2.release.xcconfig"; path = "Target Support Files/Pods-RubyTestApp2/Pods-RubyTestApp2.release.xcconfig"; sourceTree = "<group>"; };
+		0AA6C885190787EFFBA0D97C /* Pods_RubyTestApp2Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RubyTestApp2Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		129746D0991F3BB9AA96A22E /* Pods-RubyTestApp2Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RubyTestApp2Tests.release.xcconfig"; path = "Target Support Files/Pods-RubyTestApp2Tests/Pods-RubyTestApp2Tests.release.xcconfig"; sourceTree = "<group>"; };
 		2A1AD464CE27D6A2703E0F29 /* Pods-RubyTestApp2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RubyTestApp2.debug.xcconfig"; path = "Target Support Files/Pods-RubyTestApp2/Pods-RubyTestApp2.debug.xcconfig"; sourceTree = "<group>"; };
+		7108A13A243B4BE0003A73CF /* APIKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKey.swift; sourceTree = "<group>"; };
 		AD9F7C33AFA310BC0C01B5FE /* Pods-RubyTestApp2-RubyTestApp2UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RubyTestApp2-RubyTestApp2UITests.release.xcconfig"; path = "Target Support Files/Pods-RubyTestApp2-RubyTestApp2UITests/Pods-RubyTestApp2-RubyTestApp2UITests.release.xcconfig"; sourceTree = "<group>"; };
 		BA4860BB6AFDBE9849F5840D /* Pods-RubyTestApp2Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RubyTestApp2Tests.debug.xcconfig"; path = "Target Support Files/Pods-RubyTestApp2Tests/Pods-RubyTestApp2Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C3F3CCE85C89413E27FAEBE3 /* Pods-RubyTestApp2-RubyTestApp2UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RubyTestApp2-RubyTestApp2UITests.debug.xcconfig"; path = "Target Support Files/Pods-RubyTestApp2-RubyTestApp2UITests/Pods-RubyTestApp2-RubyTestApp2UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CF5C5B1C4F931A8A0C20C5EF /* Pods_RubyTestApp2_RubyTestApp2UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RubyTestApp2_RubyTestApp2UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA16865E24310AD10081D891 /* APIHttpRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIHttpRequest.swift; sourceTree = "<group>"; };
 		DA1686612431576F0081D891 /* AdaptiveCardSwiftSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdaptiveCardSwiftSampleTests.swift; sourceTree = "<group>"; };
 		DA168663243157E90081D891 /* MockURLProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockURLProtocol.swift; sourceTree = "<group>"; };
@@ -84,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29A308D39CB80C2AD40B7820 /* Pods_RubyTestApp2Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F3ECED92772F0ABA5C4D804 /* Pods_RubyTestApp2_RubyTestApp2UITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -114,6 +122,7 @@
 			isa = PBXGroup;
 			children = (
 				DA16865E24310AD10081D891 /* APIHttpRequest.swift */,
+				7108A13A243B4BE0003A73CF /* APIKey.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -189,6 +198,8 @@
 				DA38F505242A59220011E16E /* Pods_RubyTestApp2.framework */,
 				DA38F503242A591D0011E16E /* Keys.framework */,
 				DA38F501242A59190011E16E /* Alamofire.framework */,
+				CF5C5B1C4F931A8A0C20C5EF /* Pods_RubyTestApp2_RubyTestApp2UITests.framework */,
+				0AA6C885190787EFFBA0D97C /* Pods_RubyTestApp2Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -434,6 +445,7 @@
 			files = (
 				DA38F4B7242A49450011E16E /* ViewController.swift in Sources */,
 				DA16865F24310AD10081D891 /* APIHttpRequest.swift in Sources */,
+				7108A13B243B4BE0003A73CF /* APIKey.swift in Sources */,
 				DA38F4B5242A49450011E16E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -614,6 +626,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R3K66Q5B6M;
 				INFOPLIST_FILE = RubyTestApp2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -632,6 +645,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R3K66Q5B6M;
 				INFOPLIST_FILE = RubyTestApp2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
