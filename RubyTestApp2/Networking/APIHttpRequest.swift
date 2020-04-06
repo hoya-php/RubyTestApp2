@@ -16,6 +16,7 @@ struct ResponseData: Codable {
     var output_type = ""
     var converted = ""
 }
+
 class APIHttpRequest {
     
     func APIHttpRequest(sentence: String, completion: @escaping (ResponseData) -> Void) {
