@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-class MesseageCell {
+struct MessageCell {
     //  入力文字
     let inputCharacter: String
 
@@ -22,7 +22,7 @@ class MesseageCell {
     }
     
     /*
-     
+     Task 作成をするイニシャライザ
     */
     
     init(from dictionary: [String: Any]) {
