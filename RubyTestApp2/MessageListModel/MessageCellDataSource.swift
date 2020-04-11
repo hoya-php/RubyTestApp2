@@ -21,9 +21,9 @@ class MessageCellDataSource {
         let userDefaults = UserDefaults.standard
         let messageCellDictionaries = userDefaults.object(forKey: "messageCells") as? [[String: Any]]
         
-        guard let t = messageCellDictionaries else { return }
+        guard let m = messageCellDictionaries else { return }
         
-        for dic in t {
+        for dic in m {
             
             let messageCell = MessageCell(from: dic)
             messageCells.append(messageCell)
@@ -39,9 +39,11 @@ class MessageCellDataSource {
         messageCells.append(messageCell)
         
         var messageCellDictionaries = [[String: Any]]()
+        
+        //  一旦 Dictionary へ変換し、 Dictionary を保持する Array として保存する
         for m in messageCells {
             
-            var messageCellDictionary: [String: Any] = ["inputCharacter": m.inputCharacter,
+            let messageCellDictionary: [String: Any] = ["inputCharacter": m.inputCharacter,
                                                         "outputRubyCharacter": m.outputRubyCharacter]
             
             messageCellDictionaries.append(messageCellDictionary)
@@ -52,7 +54,7 @@ class MessageCellDataSource {
         
         userDefaults.set(messageCellDictionaries, forKey: "MessageCells")
         
-        userDefaults.synchoronize()
+        userDefaults.synchronize()
         
     }
     
@@ -64,11 +66,11 @@ class MessageCellDataSource {
     
     
     //割り当てられた index ごとに Cell を返す
-    func messageCellData(at index: Int) -> Messagecell? {
+    func messageCellData(at index: Int) -> MessageCell? {
         
         if messageCells.count > index {
             
-            return massageCells[index]
+            return messageCells[index]
             
         }
         
