@@ -52,20 +52,20 @@ class MessageListCell: UITableViewCell {
                                                 width: inputCharacterLabel.frame.width,
                                                 height: 15.0)
         
-        var messageCell: MessageCell? {
+    }
+    
+    var messageCell: MessageCell? {
+        
+        /*
+         didset は messageCell のセットが行われる時、呼ばれる。
+         messageCell ごとにラベルに文字をセットし、MessageListViewController で使う。
+         */
+        didSet {
             
-            /*
-              didset は messageCell のセットが行われる時、呼ばれる。
-              messageCell ごとにラベルに文字をセットし、MessageListViewController で使う。
-            */
-            didSet {
-                
-                guard let m = messageCell else { return }
-                
-                inputCharacterLabel.text = m.inputCharacter
-                outputRubyCharacterLabel.text = m.outputRubyCharacter
-                
-            }
+            guard let m = messageCell else { return }
+            
+            inputCharacterLabel.text = m.inputCharacter
+            outputRubyCharacterLabel.text = m.outputRubyCharacter
             
         }
         
