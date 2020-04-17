@@ -43,9 +43,9 @@ class MessageListCell: UITableViewCell {
         super.layoutSubviews()
         
         inputCharacterLabel.frame = CGRect(x: 15.0,
-                                          y: 15.0,
-                                          width: contentView.frame.width - ( 15.0 * 2 ),
-                                          height: 15.0)
+                                           y: 15.0,
+                                           width: contentView.frame.width - ( 15.0 * 2 ),
+                                           height: 15.0)
         
         outputRubyCharacterLabel.frame = CGRect(x: inputCharacterLabel.frame.origin.x,
                                                 y: inputCharacterLabel.frame.maxY + 8.0,

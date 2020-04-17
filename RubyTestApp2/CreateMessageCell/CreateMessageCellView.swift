@@ -11,10 +11,8 @@ import UIKit
 
 protocol CreateMessageCellViewDelegate : class {
     
-    func createView(messageCellEditting view: CreateMessageCellView, inputCharacter: String)
-    
-    func createView(deadlineEditting view: CreateMessageCellView, outputRubyCharacter: String)
-    
+    func createView(inputCharacterEditting view: CreateMessageCellView, inputCharacter: String)
+    func createView(outputRubyCharacterEditting view: CreateMessageCellView, outputRubyCharacter: String)
     func createView(saveButtonDidTap view: CreateMessageCellView)
     
 }
@@ -26,40 +24,42 @@ class CreateMessageCellView: UIView {
     private var messageCellOutputRubyCharacterTextField: UITextField!
     private var saveButton: UIButton!
     
-    
     weak var delegate: CreateMessageCellViewDelegate?
     
     required override init(frame: CGRect) {
         
         super.init(frame: frame)
     
+        
         messageCellInputCharacterTextField = UITextField()
         messageCellInputCharacterTextField.delegate = self
         messageCellInputCharacterTextField.tag = 0
         messageCellInputCharacterTextField.placeholder = "予定を入れてください"
         addSubview(messageCellInputCharacterTextField)
     
+        
         messageCellOutputRubyCharacterTextField = UITextField()
         messageCellOutputRubyCharacterTextField.tag = 1
         messageCellOutputRubyCharacterTextField.placeholder = "出力が表示されます"
         addSubview(messageCellOutputRubyCharacterTextField)
     
+        
         saveButton = UIButton()
         saveButton.setTitle("保存する", for: .normal)
         saveButton.setTitleColor(UIColor.black, for: .normal)
         saveButton.layer.borderWidth = 0.5
         saveButton.layer.cornerRadius = 4.0
-        saveButton.addTarget(self, action: #selector(saveButtonTapped(_:)),
+        saveButton.addTarget(self,
+                             action: #selector(saveButtonTapped(_:)),
                              for: .touchUpInside)
         addSubview(saveButton)
     
     }
     
-    
     required init?(coder aDecoder: NSCoder) {
         
         fatalError("init(coder:) has not been implemented")
-    
+        
     }
     
     
@@ -87,28 +87,28 @@ class CreateMessageCellView: UIView {
         let saveButtonSize = CGSize(width: 100, height: 50)
         
         saveButton.frame = CGRect(x: (bounds.size.width - saveButtonSize.width) / 2,
-                                  y: messageCellInputCharacterTextField.frame.maxY + 30,
+                                  y: messageCellOutputRubyCharacterTextField.frame.maxY + 30,
                                   width: saveButtonSize.width,
                                   height: saveButtonSize.height)
 
     }
     
-    extension CreateMessageListView: UITextFieldDelegate {
+}
+
+extension CreateMessageCellView: UITextFieldDelegate {
+    
+    func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
         
-        func messageCellInputCharacterTextField(_ textField: UITextField,
-                       shouldChangeCharactersIn range: NSRange,
-                       replacementString string: String) -> Bool {
-            
-            if messageCellInputCharacterTextField.tag == 0 {
+        if messageCellInputCharacterTextField.tag == 0 {
             // 入力してある側の文字をクリエイトビューに渡す
-                    delegate?.createView(messageCellEditting: self,
-                                         inputCharacter: messageCellInputCharacterTextField.text ?? "")
-                
-            }
+            delegate?.createView(inputCharacterEditting: self,
+                                 inputCharacter: messageCellInputCharacterTextField.text!)
             
-            return true
+            
             
         }
+        
+        return true
         
     }
     

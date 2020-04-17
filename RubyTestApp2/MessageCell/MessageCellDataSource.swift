@@ -19,7 +19,7 @@ class MessageCellDataSource {
     func messageCellsDataLoad() {
         
         let userDefaults = UserDefaults.standard
-        let messageCellDictionaries = userDefaults.object(forKey: "messageCells") as? [[String: Any]]
+        let messageCellDictionaries = userDefaults.object(forKey: "MessageCells") as? [[String: Any]]
         
         guard let m = messageCellDictionaries else { return }
         
@@ -53,8 +53,6 @@ class MessageCellDataSource {
         let userDefaults = UserDefaults.standard
         
         userDefaults.set(messageCellDictionaries, forKey: "MessageCells")
-        
-        userDefaults.synchronize()
         
     }
     

@@ -27,7 +27,7 @@ class MessageListViewController: UIViewController {
         
         let barButton = UIBarButtonItem(barButtonSystemItem: .add,
                                         target: self,
-                                        action: #selector(barButtonTapped(:)))
+                                        action: #selector(barButtonTapped(_:)))
         
         navigationItem.rightBarButtonItem = barButton
         
@@ -47,11 +47,14 @@ class MessageListViewController: UIViewController {
     }
     
     
-    func barButtonTapped(_ sender: UIBarButtonItem) {
+    @objc func barButtonTapped(_ sender: UIBarButtonItem) {
         //  task モニタ
-        let controller = MessageListViewController()
-        let navi = UINavigationController(rootViewController: controller)
-        present(navi, animated: true, completion: nil)
+        let controller = CreateMessageCellViewController()
+        
+        //let navi = UINavigationController(rootViewController: controller)
+        //present(navi, animated: true, completion: nil)
+        
+        self.navigationController?.pushViewController(controller, animated: true)
     
     }
 
