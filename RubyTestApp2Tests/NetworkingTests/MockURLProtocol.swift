@@ -24,7 +24,7 @@ public class MockURLProtocol: URLProtocol {
     override open func startLoading() {
         let delay: Double = 1.0 // 通信に1秒かかるモック
         DispatchQueue.global().asyncAfter(deadline: .now() + delay) {
-            self.client?.urlProtocol(self, didLoad: self.response!) // 結果を返す
+            self.client?.urlProtocol(self, didLoad: self.string!) // 結果を返す
             self.client?.urlProtocolDidFinishLoading(self)     // 通信が終了したことを伝える
             
             // エラー時のハンドリングもこちらで可能です。
@@ -36,10 +36,10 @@ public class MockURLProtocol: URLProtocol {
     override open func stopLoading() {
     }
     
-    private var response: Data? {
+    private var string: String? {
         // URLなどでパターンマッチングすることで結果を切り替えることも出来る
         // self.request.url
-        let json = "{\"converted\":\"てすとくどうかいはつ\",\"output_type\":\"hiragana\",\"request_id\":\"request-id\"}"
-        return json.data(using: .utf8)
+        let rubyCharacter: String = "てすとくどうかいはつ"
+        return rubyCharacter
     }
 }

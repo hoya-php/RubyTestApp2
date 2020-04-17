@@ -2,10 +2,10 @@
 //  APIHttpRequest.swift
 //  RubyTestApp2
 //
-
 //
 //  Copyright © 2020 hoya. All rights reserved.
 //
+
 import Foundation
 import Alamofire
 
@@ -18,8 +18,10 @@ class APIHttpRequest {
         var converted = ""
     }
     
+    //API通信処理　=> ViewController.swift
     func requests(sentence: String, completion: @escaping (_ rubyCharacter: String) -> Void) {
-        // リクエスト情報
+        
+        // リクエスト情報 => APIKey.swift
         let requestsData = RequestsData(sentence)
         
         // リクエスト送信
@@ -36,7 +38,7 @@ class APIHttpRequest {
                 completion(rubyCharacter)
                 
             } catch {
-                //error?
+                //error処理
             }
         }
     }
